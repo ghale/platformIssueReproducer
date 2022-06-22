@@ -1,0 +1,13 @@
+[versions]
+grpc = "1.39.0"
+protobuf = "3.15.1"
+spring-boot = "2.6.6"
+
+[libraries]
+grpc-bom = { module = "io.grpc:grpc-bom", version.ref = "grpc" }
+
+protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "protobuf" }
+protobuf-java-util = { module = "com.google.protobuf:protobuf-java-util", version.ref = "protobuf" }
+
+spring-boot-bom = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }
+spring-boot-plugin = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "spring-boot" }
